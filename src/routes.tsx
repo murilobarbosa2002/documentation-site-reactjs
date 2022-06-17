@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
-import { HomePage } from "./screens/home"
-import { DocsPage } from "./screens/docs"
+import { HomePage } from "./screens/Home"
+import { DocsPage } from "./screens/Docs"
 export function AppRouter(){
     return(
         <Router>
