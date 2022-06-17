@@ -41,7 +41,7 @@ export function NavBar(){
                     </NavText>
                     <NavText>
                         <Link to='#' onClick={ () => activeDrop('projetos') }>
-                            <FaCode /> <NavSpan>Projetos</NavSpan>
+                            <FaCode /> <NavSpan>Projetos</NavSpan> <AiFillCaretDown style={ { transform: active.includes('projetos') ? 'rotate(0deg)' : 'rotate(-180deg)', transition: '200ms' }} />
                         </Link>
                     </NavText>
                     {active.includes('projetos') && <NavDropdown />}

@@ -70,6 +70,7 @@ export const NavText = styled.li`
 `   
 export const NavSpan = styled.span`
     margin-left: 16px;
+    margin-right: 20px;
 `
 
 export const NavDrop = styled.div`

@@ -1,6 +1,4 @@
-import React, {useState} from "react"
 import { Link } from "react-router-dom"
-import { FaCode } from 'react-icons/fa'
 import { NavDrop, NavDropItems, NavDropText, NavDropSpan} from './styles'
 export function NavDropdown(){
     return(
