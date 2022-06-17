@@ -2,7 +2,7 @@
   "name": "public-projects",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://murilobarbosa2002.github.io/public-projects/",
+  "homepage": "https://murilo-barbosa.netlify.app/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
