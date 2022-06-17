@@ -6,7 +6,7 @@ export function AppRoutes(){
         <BrowserRouter>
             <Routes>
                 <Route path='/' element={<HomePage />} />
-                <Route path='docs2' element={<DocsPage />} />
+                <Route path='docs' element={<DocsPage />} />
             </Routes>
         </BrowserRouter>
     )
